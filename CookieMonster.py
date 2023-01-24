@@ -1,6 +1,5 @@
 import os, ctypes
 import base64 
-color.init()
 os.system("cls")
 cwd = os.getcwd()
 
