@@ -1,5 +1,4 @@
 import os, ctypes
-import colorama as color
 import base64 
 color.init()
 os.system("cls")
